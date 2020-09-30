@@ -1,13 +1,8 @@
-
-
 Previous change logs can be found at [CHANGELOG-3.4](https://github.com/etcd-io/etcd/blob/master/CHANGELOG-3.4.md).
-
 
 The minimum recommended etcd versions to run in **production** are 3.2.28+, 3.3.18+, and 3.4.2+.
 
-
 <hr>
-
 
 ## v3.5.0 (2020 TBD)
 
@@ -21,7 +16,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.4.0...v3.5.0) and 
 
 ### Breaking Changes
 
-- `go.etcd.io/etcd` Go packages have moved to `go.etcd.io/etcd/v3` to follow the [Go modules](https://github.com/golang/go/wiki/Modules) conventions
+- `go.etcd.io/etcd` Go packages have moved to `github.com/polygon-io/etcd/v3` to follow the [Go modules](https://github.com/golang/go/wiki/Modules) conventions
 - Changed behavior of clienv3 API [MemberList](https://github.com/etcd-io/etcd/pull/11639).
   - Previously, it is directly served with server's local data, which could be stale.
   - Now, it is served with linearizable guarantee. If the server is disconnected from quorum, `MemberList` call will fail.
@@ -140,7 +135,6 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
   - Fixed via [PR#12238](https://github.com/etcd-io/etcd/pull/12238).
 - [Fix server panic](https://github.com/etcd-io/etcd/pull/12288) when force-new-cluster flag is enabled in a cluster which had learner node.
 
-
 ### Package `runtime`
 
 - Optimize [`runtime.FDUsage` by removing unnecessary sorting](https://github.com/etcd-io/etcd/pull/12214).
@@ -226,14 +220,12 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Require [*Go 1.15+*](https://github.com/etcd-io/etcd/pull/11110).
-- Compile with [*Go 1.15*](https://golang.org/doc/devel/release.html#go1.15)
+- Require [_Go 1.15+_](https://github.com/etcd-io/etcd/pull/11110).
+- Compile with [_Go 1.15_](https://golang.org/doc/devel/release.html#go1.15)
 - etcd uses go [modules](https://github.com/etcd-io/etcd/pull/12279) (instead of vendor dir) to track dependencies.
 
 ### Project Governance
 
 - The etcd team has added, a well defined and openly discussed, project [governance](https://github.com/etcd-io/etcd/pull/11175).
 
-
 <hr>
-

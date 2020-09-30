@@ -25,11 +25,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/v3/pkg/testutil"
-	"go.etcd.io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/v3/pkg/transport"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

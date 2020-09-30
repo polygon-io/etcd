@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"path"
 
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/v3/pkg/types"
 )
 
 var (

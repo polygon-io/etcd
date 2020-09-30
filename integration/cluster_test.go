@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/client"
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/v3/etcdserver"
+	"github.com/polygon-io/etcd/v3/pkg/testutil"
 )
 
 func init() {

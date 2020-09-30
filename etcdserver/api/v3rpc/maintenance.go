@@ -21,14 +21,14 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"go.etcd.io/etcd/v3/auth"
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/v3/mvcc"
-	"go.etcd.io/etcd/v3/mvcc/backend"
-	"go.etcd.io/etcd/v3/raft"
-	"go.etcd.io/etcd/v3/version"
+	"github.com/polygon-io/etcd/v3/auth"
+	"github.com/polygon-io/etcd/v3/etcdserver"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/v3/mvcc"
+	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/v3/version"
 
 	"go.uber.org/zap"
 )

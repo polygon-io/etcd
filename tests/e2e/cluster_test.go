@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver"
+	"github.com/polygon-io/etcd/v3/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

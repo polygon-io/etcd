@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	recipe "go.etcd.io/etcd/v3/contrib/recipes"
+	recipe "github.com/polygon-io/etcd/v3/contrib/recipes"
 )
 
 const (

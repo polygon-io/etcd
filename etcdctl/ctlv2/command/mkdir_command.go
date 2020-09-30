@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/v3/client"
+	"github.com/polygon-io/etcd/v3/client"
 )
 
 // NewMakeDirCommand returns the CLI command for "mkdir".

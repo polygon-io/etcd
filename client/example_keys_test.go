@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"go.etcd.io/etcd/v3/client"
+	"github.com/polygon-io/etcd/v3/client"
 )
 
 func ExampleKeysAPI_directory() {

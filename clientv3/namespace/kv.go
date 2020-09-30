@@ -17,9 +17,9 @@ package namespace
 import (
 	"context"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 type kvPrefix struct {

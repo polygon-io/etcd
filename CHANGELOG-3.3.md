@@ -1,13 +1,8 @@
-
-
 Previous change logs can be found at [CHANGELOG-3.2](https://github.com/etcd-io/etcd/blob/master/CHANGELOG-3.2.md).
-
 
 The minimum recommended etcd versions to run in **production** are 3.2.28+, 3.3.18+, and 3.4.2+.
 
-
 <hr>
-
 
 ## v3.3.25 (2020 TBD)
 
@@ -16,7 +11,6 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.23...v3.3.25) an
 ### Security
 
 - A [log warning](https://github.com/etcd-io/etcd/pull/12242) is added when etcd use any existing directory that has a permission different than 700 on Linux and 777 on Windows.
-
 
 ## [v3.3.24](https://github.com/etcd-io/etcd/releases/tag/v3.3.24) (2020-08-18)
 
@@ -37,13 +31,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.23...v3.3.24) an
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
-
 
 ## [v3.3.23](https://github.com/etcd-io/etcd/releases/tag/v3.3.23) (2020-07-16)
 
@@ -54,10 +44,11 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.22...v3.3.23) an
 - Fix [incorrect package dependency when etcd clientv3 used as libary](https://github.com/etcd-io/etcd/issues/12068).
 - Changed behavior on [existing dir permission](https://github.com/etcd-io/etcd/pull/11798).
   - Previously, the permission was not checked on existing data directory and the directory used for automatically generating self-signed certificates for TLS connections with clients. Now a check is added to make sure those directories, if already exist, has a desired permission of 700 on Linux and 777 on Windows.
-  
+
 ### Package `wal`
 
 ### etcd server
+
 - Fix [watch stream got closed if one watch request is not permitted](https://github.com/etcd-io/etcd/pull/11758).
 - Add [etcd --auth-token-ttl](https://github.com/etcd-io/etcd/pull/11980) flag to customize `simpleTokenTTL` settings.
 - Improve [runtime.FDUsage objects malloc of Memory Usage and CPU Usage](https://github.com/etcd-io/etcd/pull/11986).
@@ -65,12 +56,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.22...v3.3.23) an
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
 
 ## [v3.3.22](https://github.com/etcd-io/etcd/releases/tag/v3.3.22) (2020-05-20)
 
@@ -83,11 +71,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.21...v3.3.22) an
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
 
 ## [v3.3.21](https://github.com/etcd-io/etcd/releases/tag/v3.3.21) (2020-05-18)
 
@@ -120,11 +106,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.20...v3.3.21) an
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
 
 ## [v3.3.20](https://github.com/etcd-io/etcd/releases/tag/v3.3.20) (2020-04-01)
 
@@ -140,11 +124,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.19...v3.3.20) an
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
 
 ## [v3.3.19](https://github.com/etcd-io/etcd/releases/tag/v3.3.19) (2020-03-18)
 
@@ -176,11 +158,9 @@ See [List of metrics](https://github.com/etcd-io/etcd/tree/master/Documentation/
 
 ### Go
 
-- Compile with [*Go 1.12.17*](https://golang.org/doc/devel/release.html#go1.12).
-
+- Compile with [_Go 1.12.17_](https://golang.org/doc/devel/release.html#go1.12).
 
 <hr>
-
 
 ## [v3.3.18](https://github.com/etcd-io/etcd/releases/tag/v3.3.18) (2019-11-26)
 
@@ -199,9 +179,7 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
   - Previously, during shutdown etcd could accidentally remove needed wal files, resulting in catastrophic error `etcdserver: open wal error: wal: file not found.` during startup.
   - Now, etcd makes sure the purge file loop exits before server signals stop of the raft node.
 
-
 <hr>
-
 
 ## [v3.3.17](https://github.com/etcd-io/etcd/releases/tag/v3.3.17) (2019-10-11)
 
@@ -213,9 +191,7 @@ This release replaces 3.3.16.
 
 Due to the etcd 3.3.16 release being incorrectly released (see details below), please use this release instead.
 
-
 <hr>
-
 
 ## [v3.3.16](https://github.com/etcd-io/etcd/releases/tag/v3.3.16) (2019-10-10)
 
@@ -253,7 +229,7 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.12.9*](https://golang.org/doc/devel/release.html#go1.12) including [*Go 1.12.8*](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
+- Compile with [_Go 1.12.9_](https://golang.org/doc/devel/release.html#go1.12) including [_Go 1.12.8_](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
 
 ### client v3
 
@@ -262,9 +238,7 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 - Fix [IPv6 endpoint parsing in client](https://github.com/etcd-io/etcd/pull/11211).
   - Fix ["1.16: etcd client does not parse IPv6 addresses correctly when members are joining" (kubernetes#83550)](https://github.com/kubernetes/kubernetes/issues/83550).
 
-
 <hr>
-
 
 ## [v3.3.15](https://github.com/etcd-io/etcd/releases/tag/v3.3.15) (2019-08-19)
 
@@ -282,12 +256,10 @@ NOTE: This patch release had to include some new features from 3.4, while trying
 
 ### Go
 
-- Require [*Go 1.12+*](https://github.com/etcd-io/etcd/pull/10045).
-- Compile with [*Go 1.12.9*](https://golang.org/doc/devel/release.html#go1.12) including [*Go 1.12.8*](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
-
+- Require [_Go 1.12+_](https://github.com/etcd-io/etcd/pull/10045).
+- Compile with [_Go 1.12.9_](https://golang.org/doc/devel/release.html#go1.12) including [_Go 1.12.8_](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
 
 <hr>
-
 
 ## [v3.3.14](https://github.com/etcd-io/etcd/releases/tag/v3.3.14) (2019-08-16)
 
@@ -307,8 +279,8 @@ NOTE: This patch release had to include some new features from 3.4, while trying
   - Improve [client balancer failover against secure endpoints](https://github.com/etcd-io/etcd/pull/10911).
     - Fix ["kube-apiserver 1.13.x refuses to work when first etcd-server is not available" (kubernetes#72102)](https://github.com/kubernetes/kubernetes/issues/72102).
   - [The new client balancer](https://github.com/etcd-io/etcd/blob/master/Documentation/learning/design-client.md) uses an asynchronous resolver to pass endpoints to the gRPC dial function. to block until the underlying connection is up, pass `grpc.WithBlock()` to `clientv3.Config.DialOptions`.
-- Require [*Go 1.12+*](https://github.com/etcd-io/etcd/pull/10045).
-- Compile with [*Go 1.12.9*](https://golang.org/doc/devel/release.html#go1.12) including [*Go 1.12.8*](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
+- Require [_Go 1.12+_](https://github.com/etcd-io/etcd/pull/10045).
+- Compile with [_Go 1.12.9_](https://golang.org/doc/devel/release.html#go1.12) including [_Go 1.12.8_](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
 - Migrate dependency management tool from `glide` to [Go module](https://github.com/etcd-io/etcd/pull/10063).
   - <= 3.3 puts `vendor` directory under `cmd/vendor` directory to [prevent conflicting transitive dependencies](https://github.com/etcd-io/etcd/issues/4913).
   - 3.4 moves `cmd/vendor` directory to `vendor` at repository root.
@@ -370,27 +342,25 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 - Add [`etcdctl endpoint health --write-out` support](https://github.com/etcd-io/etcd/pull/9540).
   - Previously, [`etcdctl endpoint health --write-out json` did not work](https://github.com/etcd-io/etcd/issues/9532).
   - The command output is changed. Previously, if endpoint is unreachable, the command output is
-  "\<endpoint\> is unhealthy: failed to connect: \<error message\>". This change unified the error message, all error types
-  now have the same output "\<endpoint\> is unhealthy: failed to commit proposal: \<error message\>".
+    "\<endpoint\> is unhealthy: failed to connect: \<error message\>". This change unified the error message, all error types
+    now have the same output "\<endpoint\> is unhealthy: failed to commit proposal: \<error message\>".
 - Add [missing newline in `etcdctl endpoint health`](https://github.com/etcd-io/etcd/pull/10793).
 
 ### Package `pkg/adt`
 
 - Change [`pkg/adt.IntervalTree` from `struct` to `interface`](https://github.com/etcd-io/etcd/pull/10959).
-  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/go.etcd.io/etcd/pkg/adt).
+  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/github.com/polygon-io/etcd/pkg/adt).
 - Improve [`pkg/adt.IntervalTree` test coverage](https://github.com/etcd-io/etcd/pull/10959).
-  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/go.etcd.io/etcd/pkg/adt).
+  - See [`pkg/adt` README](https://github.com/etcd-io/etcd/tree/master/pkg/adt) and [`pkg/adt` godoc](https://godoc.org/github.com/polygon-io/etcd/pkg/adt).
 - Fix [Red-Black tree to maintain black-height property](https://github.com/etcd-io/etcd/pull/10978).
   - Previously, delete operation violates [black-height property](https://github.com/etcd-io/etcd/issues/10965).
 
 ### Go
 
-- Require [*Go 1.12+*](https://github.com/etcd-io/etcd/pull/10045).
-- Compile with [*Go 1.12.9*](https://golang.org/doc/devel/release.html#go1.12) including [*Go 1.12.8*](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
-
+- Require [_Go 1.12+_](https://github.com/etcd-io/etcd/pull/10045).
+- Compile with [_Go 1.12.9_](https://golang.org/doc/devel/release.html#go1.12) including [_Go 1.12.8_](https://groups.google.com/d/msg/golang-announce/65QixT3tcmg/DrFiG6vvCwAJ) security fixes.
 
 <hr>
-
 
 ## [v3.3.13](https://github.com/etcd-io/etcd/releases/tag/v3.3.13) (2019-05-02)
 
@@ -426,11 +396,9 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.10.8*](https://golang.org/doc/devel/release.html#go1.10).
-
+- Compile with [_Go 1.10.8_](https://golang.org/doc/devel/release.html#go1.10).
 
 <hr>
-
 
 ## [v3.3.12](https://github.com/etcd-io/etcd/releases/tag/v3.3.12) (2019-02-07)
 
@@ -444,11 +412,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.11...v3.3.12) an
 
 ### Go
 
-- Compile with [*Go 1.10.8*](https://golang.org/doc/devel/release.html#go1.10).
-
+- Compile with [_Go 1.10.8_](https://golang.org/doc/devel/release.html#go1.10).
 
 <hr>
-
 
 ## [v3.3.11](https://github.com/etcd-io/etcd/releases/tag/v3.3.11) (2019-01-11)
 
@@ -466,11 +432,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.10...v3.3.11) an
 
 ### Go
 
-- Compile with [*Go 1.10.7*](https://golang.org/doc/devel/release.html#go1.10).
-
+- Compile with [_Go 1.10.7_](https://golang.org/doc/devel/release.html#go1.10).
 
 <hr>
-
 
 ## [v3.3.10](https://github.com/etcd-io/etcd/releases/tag/v3.3.10) (2018-10-10)
 
@@ -512,11 +476,9 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.10.4*](https://golang.org/doc/devel/release.html#go1.10).
-
+- Compile with [_Go 1.10.4_](https://golang.org/doc/devel/release.html#go1.10).
 
 <hr>
-
 
 ## [v3.3.9](https://github.com/etcd-io/etcd/releases/tag/v3.3.9) (2018-07-24)
 
@@ -530,7 +492,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.8...v3.3.9) and 
 
 ### Security, Authentication
 
-- Compile with [*Go 1.10.3*](https://golang.org/doc/devel/release.html#go1.10) to support [crypto/x509 "Name Constraints"](https://github.com/etcd-io/etcd/issues/9912).
+- Compile with [_Go 1.10.3_](https://golang.org/doc/devel/release.html#go1.10) to support [crypto/x509 "Name Constraints"](https://github.com/etcd-io/etcd/issues/9912).
 
 ### Metrics, Monitoring
 
@@ -567,11 +529,9 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.10.3*](https://golang.org/doc/devel/release.html#go1.10).
-
+- Compile with [_Go 1.10.3_](https://golang.org/doc/devel/release.html#go1.10).
 
 <hr>
-
 
 ## [v3.3.8](https://github.com/etcd-io/etcd/releases/tag/v3.3.8) (2018-06-15)
 
@@ -589,11 +549,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.7...v3.3.8) and 
 
 ### Go
 
-- Compile with [*Go 1.9.7*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.7_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.7](https://github.com/etcd-io/etcd/releases/tag/v3.3.7) (2018-06-06)
 
@@ -615,11 +573,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.6...v3.3.7) and 
 
 ### Go
 
-- Compile with [*Go 1.9.6*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.6_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.6](https://github.com/etcd-io/etcd/releases/tag/v3.3.6) (2018-05-31)
 
@@ -633,16 +589,14 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.5...v3.3.6) and 
   - Previously, when auth token is an empty string, it returns [`failed to initialize the etcd server: auth: invalid auth options` error](https://github.com/etcd-io/etcd/issues/9349).
 - Fix [auth storage panic on server lease revoke routine with JWT token](https://github.com/etcd-io/etcd/issues/9695).
 - Fix [`mvcc` server panic from restore operation](https://github.com/etcd-io/etcd/pull/9775).
-  - Let's assume that a watcher had been requested with a future revision X and sent to node A that became network-partitioned thereafter. Meanwhile, cluster makes progress. Then when the partition gets removed, the leader sends a snapshot to node A. Previously if the snapshot's latest revision is still lower than the watch revision X,  **etcd server panicked** during snapshot restore operation.
+  - Let's assume that a watcher had been requested with a future revision X and sent to node A that became network-partitioned thereafter. Meanwhile, cluster makes progress. Then when the partition gets removed, the leader sends a snapshot to node A. Previously if the snapshot's latest revision is still lower than the watch revision X, **etcd server panicked** during snapshot restore operation.
   - Now, this server-side panic has been fixed.
 
 ### Go
 
-- Compile with [*Go 1.9.6*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.6_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.5](https://github.com/etcd-io/etcd/releases/tag/v3.3.5) (2018-05-09)
 
@@ -653,15 +607,13 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.4...v3.3.5) and 
 ### etcdctl v3
 
 - Fix [`etcdctl watch [key] [range_end] -- [exec-command…]`](https://github.com/etcd-io/etcd/pull/9688) parsing.
-  - Previously,  `ETCDCTL_API=3 ./bin/etcdctl watch foo -- echo watch event received` panicked.
+  - Previously, `ETCDCTL_API=3 ./bin/etcdctl watch foo -- echo watch event received` panicked.
 
 ### Go
 
-- Compile with [*Go 1.9.6*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.6_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.4](https://github.com/etcd-io/etcd/releases/tag/v3.3.4) (2018-04-24)
 
@@ -705,11 +657,9 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.9.5*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.5_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.3](https://github.com/etcd-io/etcd/releases/tag/v3.3.3) (2018-03-29)
 
@@ -729,8 +679,8 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.2...v3.3.3) and 
   - Periodic compactor keeps recording latest revisions for every compaction period when given period is less than 1-hour, or for every 1-hour when given compaction period is greater than 1-hour (e.g. 1-hour when `etcd --auto-compaction-mode=periodic --auto-compaction-retention=24h`).
   - For every compaction period or 1-hour, compactor uses the last revision that was fetched before compaction period, to discard historical data.
   - The retention window of compaction period moves for every given compaction period or hour.
-  - For instance, when hourly writes are 100 and `etcd --auto-compaction-mode=periodic --auto-compaction-retention=24h`, `v3.2.x`, `v3.3.0`, `v3.3.1`, and `v3.3.2` compact revision 2400, 2640, and 2880 for every 2.4-hour, while `v3.3.3` *or later* compacts revision 2400, 2500, 2600 for every 1-hour.
-  - Futhermore, when `etcd --auto-compaction-mode=periodic --auto-compaction-retention=30m` and writes per minute are about 1000, `v3.3.0`, `v3.3.1`, and `v3.3.2` compact revision 30000, 33000, and 36000, for every 3-minute, while `v3.3.3` *or later* compacts revision 30000, 60000, and 90000, for every 30-minute.
+  - For instance, when hourly writes are 100 and `etcd --auto-compaction-mode=periodic --auto-compaction-retention=24h`, `v3.2.x`, `v3.3.0`, `v3.3.1`, and `v3.3.2` compact revision 2400, 2640, and 2880 for every 2.4-hour, while `v3.3.3` _or later_ compacts revision 2400, 2500, 2600 for every 1-hour.
+  - Futhermore, when `etcd --auto-compaction-mode=periodic --auto-compaction-retention=30m` and writes per minute are about 1000, `v3.3.0`, `v3.3.1`, and `v3.3.2` compact revision 30000, 33000, and 36000, for every 3-minute, while `v3.3.3` _or later_ compacts revision 30000, 60000, and 90000, for every 30-minute.
 
 ### Metrics, Monitoring
 
@@ -742,11 +692,9 @@ Note that any `etcd_debugging_*` metrics are experimental and subject to change.
 
 ### Go
 
-- Compile with [*Go 1.9.5*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.5_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.2](https://github.com/etcd-io/etcd/releases/tag/v3.3.2) (2018-03-08)
 
@@ -765,7 +713,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.1...v3.3.2) and 
 - Prevent [overflow by large `TTL` values for `Lease` `Grant`](https://github.com/etcd-io/etcd/pull/9399).
   - `TTL` parameter to `Grant` request is unit of second.
   - Leases with too large `TTL` values exceeding `math.MaxInt64` [expire in unexpected ways](https://github.com/etcd-io/etcd/issues/9374).
-  - Server now returns `rpctypes.ErrLeaseTTLTooLarge` to client, when the requested `TTL` is larger than *9,000,000,000 seconds* (which is >285 years).
+  - Server now returns `rpctypes.ErrLeaseTTLTooLarge` to client, when the requested `TTL` is larger than _9,000,000,000 seconds_ (which is >285 years).
   - Again, etcd `Lease` is meant for short-periodic keepalives or sessions, in the range of seconds or minutes. Not for hours or days!
 - Enable etcd server [`raft.Config.CheckQuorum` when starting with `ForceNewCluster`](https://github.com/etcd-io/etcd/pull/9347).
 
@@ -775,11 +723,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.1...v3.3.2) and 
 
 ### Go
 
-- Compile with [*Go 1.9.4*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.4_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.1](https://github.com/etcd-io/etcd/releases/tag/v3.3.1) (2018-02-12)
 
@@ -803,11 +749,9 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.0...v3.3.1) and 
 
 ### Go
 
-- Compile with [*Go 1.9.4*](https://golang.org/doc/devel/release.html#go1.9).
-
+- Compile with [_Go 1.9.4_](https://golang.org/doc/devel/release.html#go1.9).
 
 <hr>
-
 
 ## [v3.3.0](https://github.com/etcd-io/etcd/releases/tag/v3.3.0) (2018-02-01)
 
@@ -1085,10 +1029,8 @@ See [security doc](https://github.com/etcd-io/etcd/blob/master/Documentation/op-
 
 ### Go
 
-- Require [*Go 1.9+*](https://github.com/etcd-io/etcd/issues/6174).
-- Compile with [*Go 1.9.3*](https://golang.org/doc/devel/release.html#go1.9).
+- Require [_Go 1.9+_](https://github.com/etcd-io/etcd/issues/6174).
+- Compile with [_Go 1.9.3_](https://golang.org/doc/devel/release.html#go1.9).
 - Deprecate [`golang.org/x/net/context`](https://github.com/etcd-io/etcd/pull/8511).
 
-
 <hr>
-

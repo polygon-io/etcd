@@ -20,9 +20,9 @@ import (
 	"path"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/v3/pkg/pbutil"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
+	"github.com/polygon-io/etcd/v3/pkg/pbutil"
 
 	"go.uber.org/zap"
 )

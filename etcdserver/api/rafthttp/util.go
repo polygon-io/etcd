@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/v3/pkg/transport"
-	"go.etcd.io/etcd/v3/pkg/types"
-	"go.etcd.io/etcd/v3/version"
+	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/v3/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

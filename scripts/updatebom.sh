@@ -12,6 +12,6 @@ fi
 echo "generating bill-of-materials.json"
 license-bill-of-materials \
     --override-file ./bill-of-materials.override.json \
-    go.etcd.io/etcd/v3 go.etcd.io/etcd/v3/etcdctl > bill-of-materials.json
+    github.com/polygon-io/etcd/v3 github.com/polygon-io/etcd/v3/etcdctl > bill-of-materials.json
 
 echo "generated bill-of-materials.json"

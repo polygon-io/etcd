@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/v3/proxy/grpcproxy/adapter"
+	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/v3/etcdserver"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc"
+	"github.com/polygon-io/etcd/v3/proxy/grpcproxy/adapter"
 )
 
 // New creates a clientv3 client that wraps an in-process EtcdServer. Instead

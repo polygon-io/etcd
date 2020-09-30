@@ -24,8 +24,8 @@ import (
 	"syscall"
 	"time"
 
-	"go.etcd.io/etcd/v3/pkg/expect"
-	"go.etcd.io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/v3/pkg/expect"
+	"github.com/polygon-io/etcd/v3/pkg/fileutil"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

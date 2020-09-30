@@ -18,12 +18,12 @@ import (
 	"context"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver"
-	"go.etcd.io/etcd/v3/etcdserver/api"
-	"go.etcd.io/etcd/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/v3/etcdserver"
+	"github.com/polygon-io/etcd/v3/etcdserver/api"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/v3/pkg/types"
 )
 
 type ClusterServer struct {

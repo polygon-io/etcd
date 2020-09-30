@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/lease"
-	"go.etcd.io/etcd/v3/mvcc/backend"
-	"go.etcd.io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/v3/lease"
+	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/v3/pkg/traceutil"
 	"go.uber.org/zap"
 )
 

@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/pkg/testutil"
-	"go.etcd.io/etcd/v3/version"
+	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/v3/version"
 )
 
 type actionAssertingHTTPClient struct {

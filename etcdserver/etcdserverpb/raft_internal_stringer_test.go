@@ -17,7 +17,7 @@ package etcdserverpb_test
 import (
 	"testing"
 
-	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 // TestInvalidGoYypeIntPanic tests conditions that caused

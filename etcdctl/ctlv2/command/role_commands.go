@@ -21,8 +21,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/v3/client"
-	"go.etcd.io/etcd/v3/pkg/pathutil"
+	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/v3/pkg/pathutil"
 )
 
 func NewRoleCommands() cli.Command {

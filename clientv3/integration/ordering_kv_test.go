@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/clientv3/ordering"
-	"go.etcd.io/etcd/v3/integration"
-	"go.etcd.io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/v3/clientv3/ordering"
+	"github.com/polygon-io/etcd/v3/integration"
+	"github.com/polygon-io/etcd/v3/pkg/testutil"
 )
 
 func TestDetectKvOrderViolation(t *testing.T) {

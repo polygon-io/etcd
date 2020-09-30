@@ -20,7 +20,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/v3client"
+	"github.com/polygon-io/etcd/v3/etcdserver/api/v3client"
 )
 
 func TestEnableAuth(t *testing.T) {
