@@ -18,7 +18,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 )
 
 // WriteAndSyncFile behaves just like ioutil.WriteFile in the standard library,

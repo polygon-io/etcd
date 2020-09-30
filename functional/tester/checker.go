@@ -14,7 +14,7 @@
 
 package tester
 
-import "github.com/polygon-io/etcd/v3/functional/rpcpb"
+import "github.com/polygon-io/etcd/functional/rpcpb"
 
 // Checker checks cluster consistency.
 type Checker interface {

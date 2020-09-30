@@ -24,7 +24,7 @@ import (
 	"sort"
 	"syscall"
 
-	"github.com/polygon-io/etcd/v3/pkg/cpuutil"
+	"github.com/polygon-io/etcd/pkg/cpuutil"
 )
 
 var errNoDefaultRoute = fmt.Errorf("could not find default route")

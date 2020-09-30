@@ -23,9 +23,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	"github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/etcdserver"
+	"github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/raft"
 	"go.uber.org/zap"
 )
 

@@ -20,9 +20,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc"
+	"github.com/polygon-io/etcd/mvcc/backend"
 
 	"github.com/spf13/cobra"
 )

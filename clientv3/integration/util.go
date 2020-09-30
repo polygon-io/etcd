@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/clientv3"
 )
 
 // mustWaitPinReady waits up to 3-second until connection is up (pin endpoint).

@@ -21,7 +21,7 @@ Create a Config and exchange it for a Client:
 		"net/http"
 		"context"
 
-		"github.com/polygon-io/etcd/v3/client"
+		"github.com/polygon-io/etcd/client"
 	)
 
 	cfg := client.Config{

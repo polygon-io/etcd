@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/pkg/report"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/pkg/report"
 	"google.golang.org/grpc/grpclog"
 )
 

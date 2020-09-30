@@ -15,8 +15,8 @@
 package v3rpc
 
 import (
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 type header struct {

@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	"github.com/polygon-io/etcd/v3/pkg/httputil"
-	pioutil "github.com/polygon-io/etcd/v3/pkg/ioutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	"github.com/polygon-io/etcd/pkg/httputil"
+	pioutil "github.com/polygon-io/etcd/pkg/ioutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

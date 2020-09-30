@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v2store"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 type RequestV2 pb.Request

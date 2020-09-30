@@ -20,10 +20,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/namespace"
-	"github.com/polygon-io/etcd/v3/proxy/grpcproxy"
-	"github.com/polygon-io/etcd/v3/proxy/grpcproxy/adapter"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/namespace"
+	"github.com/polygon-io/etcd/proxy/grpcproxy"
+	"github.com/polygon-io/etcd/proxy/grpcproxy/adapter"
 
 	"go.uber.org/zap"
 )

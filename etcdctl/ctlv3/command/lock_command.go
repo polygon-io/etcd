@@ -23,8 +23,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/concurrency"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

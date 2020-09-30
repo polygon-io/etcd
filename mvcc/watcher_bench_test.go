@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc/backend"
 
 	"go.uber.org/zap"
 )

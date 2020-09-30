@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/transport"
 )
 
 var exampleEndpoints []string

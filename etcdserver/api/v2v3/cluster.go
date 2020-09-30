@@ -15,8 +15,8 @@
 package v2v3
 
 import (
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

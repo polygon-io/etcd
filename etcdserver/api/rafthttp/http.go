@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	pioutil "github.com/polygon-io/etcd/v3/pkg/ioutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	pioutil "github.com/polygon-io/etcd/pkg/ioutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/version"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

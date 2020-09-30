@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/expect"
+	"github.com/polygon-io/etcd/pkg/expect"
 )
 
 var (

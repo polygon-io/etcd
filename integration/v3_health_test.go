@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
 
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )

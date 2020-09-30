@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	epb "github.com/polygon-io/etcd/v3/etcdserver/api/v3election/v3electionpb"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	epb "github.com/polygon-io/etcd/etcdserver/api/v3election/v3electionpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 // TestV3ElectionCampaign checks that Campaign will not give

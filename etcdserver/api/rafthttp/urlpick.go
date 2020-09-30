@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 type urlPicker struct {

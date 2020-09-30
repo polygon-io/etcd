@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

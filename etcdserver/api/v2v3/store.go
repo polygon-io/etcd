@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/concurrency"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2error"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/concurrency"
+	"github.com/polygon-io/etcd/etcdserver/api/v2error"
+	"github.com/polygon-io/etcd/etcdserver/api/v2store"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 // store implements the Store interface for V2 using

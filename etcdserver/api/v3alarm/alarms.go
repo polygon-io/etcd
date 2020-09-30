@@ -18,9 +18,9 @@ package v3alarm
 import (
 	"sync"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

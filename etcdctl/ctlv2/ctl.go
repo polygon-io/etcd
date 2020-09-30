@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdctl/ctlv2/command"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/etcdctl/ctlv2/command"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/urfave/cli"
 )

@@ -19,8 +19,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/polygon-io/etcd/v3/pkg/pbutil"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/pkg/pbutil"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // messageEncoder is a encoder that can encode all kinds of messages.

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
-	"github.com/polygon-io/etcd/v3/pkg/adt"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/pkg/adt"
 )
 
 var (

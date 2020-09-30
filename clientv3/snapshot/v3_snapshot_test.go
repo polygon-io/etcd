@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/embed"
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/embed"
+	"github.com/polygon-io/etcd/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
 )

@@ -18,7 +18,7 @@ package main
 import (
 	"flag"
 
-	"github.com/polygon-io/etcd/v3/functional/agent"
+	"github.com/polygon-io/etcd/functional/agent"
 
 	"go.uber.org/zap"
 )

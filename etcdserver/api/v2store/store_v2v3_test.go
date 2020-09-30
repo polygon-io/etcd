@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2v3"
-	"github.com/polygon-io/etcd/v3/integration"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v2store"
+	"github.com/polygon-io/etcd/etcdserver/api/v2v3"
+	"github.com/polygon-io/etcd/integration"
 
 	"google.golang.org/grpc/grpclog"
 )

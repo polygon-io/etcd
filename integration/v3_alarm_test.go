@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"github.com/polygon-io/etcd/v3/etcdserver/cindex"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/etcdserver/cindex"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

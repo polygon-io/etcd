@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // Handler for a http based key-value store backed by raft

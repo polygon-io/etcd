@@ -14,7 +14,7 @@
 
 package mvcc
 
-import "github.com/polygon-io/etcd/v3/lease"
+import "github.com/polygon-io/etcd/lease"
 
 type metricsTxnWrite struct {
 	TxnWrite

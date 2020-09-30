@@ -17,8 +17,8 @@ package grpcproxy
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3election/v3electionpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v3election/v3electionpb"
 )
 
 type electionProxy struct {

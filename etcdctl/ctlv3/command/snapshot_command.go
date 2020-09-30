@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/clientv3/snapshot"
+	"github.com/polygon-io/etcd/clientv3/snapshot"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

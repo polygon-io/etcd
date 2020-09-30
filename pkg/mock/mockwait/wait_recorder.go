@@ -15,8 +15,8 @@
 package mockwait
 
 import (
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/wait"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/wait"
 )
 
 type WaitRecorder struct {

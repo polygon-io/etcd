@@ -21,9 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/pkg/crc"
-	"github.com/polygon-io/etcd/v3/pkg/ioutil"
-	"github.com/polygon-io/etcd/v3/wal/walpb"
+	"github.com/polygon-io/etcd/pkg/crc"
+	"github.com/polygon-io/etcd/pkg/ioutil"
+	"github.com/polygon-io/etcd/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

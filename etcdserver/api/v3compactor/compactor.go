@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"time"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

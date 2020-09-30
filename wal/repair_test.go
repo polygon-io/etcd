@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/wal/walpb"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

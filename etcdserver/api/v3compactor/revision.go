@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

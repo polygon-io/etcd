@@ -19,7 +19,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/clientv3"
 
 	"golang.org/x/time/rate"
 )

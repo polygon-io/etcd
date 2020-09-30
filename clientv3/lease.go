@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

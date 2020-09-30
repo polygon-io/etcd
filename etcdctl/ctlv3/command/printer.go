@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/snapshot"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/snapshot"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	"github.com/dustin/go-humanize"
 )

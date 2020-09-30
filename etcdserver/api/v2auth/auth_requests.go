@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"path"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2error"
-	"github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver"
+	"github.com/polygon-io/etcd/etcdserver/api/v2error"
+	"github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
 )

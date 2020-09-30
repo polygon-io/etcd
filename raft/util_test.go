@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 var testFormatter EntryFormatter = func(data []byte) string {

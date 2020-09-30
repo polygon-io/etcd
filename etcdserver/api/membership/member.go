@@ -22,7 +22,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 // RaftAttributes represents the raft related attributes of an etcd member.

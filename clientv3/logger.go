@@ -18,7 +18,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/pkg/logutil"
+	"github.com/polygon-io/etcd/pkg/logutil"
 
 	"google.golang.org/grpc/grpclog"
 )

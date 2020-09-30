@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	recipe "github.com/polygon-io/etcd/v3/contrib/recipes"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/clientv3"
+	recipe "github.com/polygon-io/etcd/contrib/recipes"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestBarrierSingleNode(t *testing.T) {

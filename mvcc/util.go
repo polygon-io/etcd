@@ -18,8 +18,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 func UpdateConsistentIndex(be backend.Backend, index uint64) {

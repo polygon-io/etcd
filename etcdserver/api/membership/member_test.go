@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 func timeParse(value string) *time.Time {

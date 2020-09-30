@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	stats "github.com/polygon-io/etcd/v3/etcdserver/api/v2stats"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/version"
+	stats "github.com/polygon-io/etcd/etcdserver/api/v2stats"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

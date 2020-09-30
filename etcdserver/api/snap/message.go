@@ -17,8 +17,8 @@ package snap
 import (
 	"io"
 
-	"github.com/polygon-io/etcd/v3/pkg/ioutil"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/pkg/ioutil"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // Message is a struct that contains a raft Message and a ReadCloser. The type

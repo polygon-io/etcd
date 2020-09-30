@@ -17,10 +17,10 @@ package v3rpc
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/etcdserver"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 type quotaKVServer struct {

@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 // TestOpWithSort tests if WithSort(ASCEND, KEY) and WithLimit are specified,

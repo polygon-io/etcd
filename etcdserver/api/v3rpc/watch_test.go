@@ -19,8 +19,8 @@ import (
 	"math"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 func TestSendFragment(t *testing.T) {

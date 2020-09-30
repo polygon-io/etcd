@@ -17,7 +17,7 @@ package v2store
 import (
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2error"
+	"github.com/polygon-io/etcd/etcdserver/api/v2error"
 )
 
 // TestEventQueue tests a queue with capacity = 100

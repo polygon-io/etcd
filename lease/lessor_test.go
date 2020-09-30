@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

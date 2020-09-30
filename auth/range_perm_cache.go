@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"github.com/polygon-io/etcd/v3/auth/authpb"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/adt"
+	"github.com/polygon-io/etcd/auth/authpb"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

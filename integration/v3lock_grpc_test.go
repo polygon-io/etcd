@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "github.com/polygon-io/etcd/v3/etcdserver/api/v3lock/v3lockpb"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	lockpb "github.com/polygon-io/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

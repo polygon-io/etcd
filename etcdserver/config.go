@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/netutil"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/netutil"
+	"github.com/polygon-io/etcd/pkg/transport"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	bolt "go.etcd.io/bbolt"
 	"go.uber.org/zap"

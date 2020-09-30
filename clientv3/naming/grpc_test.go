@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
-	etcd "github.com/polygon-io/etcd/v3/clientv3"
-	namingv3 "github.com/polygon-io/etcd/v3/clientv3/naming"
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	etcd "github.com/polygon-io/etcd/clientv3"
+	namingv3 "github.com/polygon-io/etcd/clientv3/naming"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/pkg/testutil"
 
 	"google.golang.org/grpc/naming"
 )

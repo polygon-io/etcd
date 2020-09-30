@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/auth/authpb"
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/auth/authpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 // TestV3AuthEmptyUserGet ensures that a get with an empty user will return an empty user error.

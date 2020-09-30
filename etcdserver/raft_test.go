@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/pkg/mock/mockstorage"
-	"github.com/polygon-io/etcd/v3/pkg/pbutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/pkg/mock/mockstorage"
+	"github.com/polygon-io/etcd/pkg/pbutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft"
+	"github.com/polygon-io/etcd/raft/raftpb"
 	"go.uber.org/zap"
 )
 

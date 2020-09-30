@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/expect"
+	"github.com/polygon-io/etcd/pkg/expect"
 )
 
 func TestCtlV3Lock(t *testing.T) {

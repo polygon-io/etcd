@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/pkg/logutil"
+	"github.com/polygon-io/etcd/pkg/logutil"
 
 	"go.uber.org/zap/zapcore"
 )

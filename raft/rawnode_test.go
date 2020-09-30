@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/raft/quorum"
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	"github.com/polygon-io/etcd/raft/quorum"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 // rawNodeAdapter is essentially a lint that makes sure that RawNode implements

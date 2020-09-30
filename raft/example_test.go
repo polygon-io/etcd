@@ -15,7 +15,7 @@
 package raft
 
 import (
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func applyToStore(ents []pb.Entry)    {}

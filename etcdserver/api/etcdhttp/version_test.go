@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/version"
 )
 
 func TestServeVersion(t *testing.T) {

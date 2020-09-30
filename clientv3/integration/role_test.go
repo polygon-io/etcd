@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestRoleError(t *testing.T) {

@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"github.com/polygon-io/etcd/v3/integration"
-	mvccpb "github.com/polygon-io/etcd/v3/mvcc/mvccpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/integration"
+	mvccpb "github.com/polygon-io/etcd/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/version"
 
 	"google.golang.org/grpc/metadata"
 )

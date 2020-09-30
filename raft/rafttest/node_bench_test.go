@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/raft"
 )
 
 func BenchmarkProposal3Nodes(b *testing.B) {

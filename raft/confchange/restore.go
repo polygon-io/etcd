@@ -15,8 +15,8 @@
 package confchange
 
 import (
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 // toConfChangeSingle translates a conf state into 1) a slice of operations creating

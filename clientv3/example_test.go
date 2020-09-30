@@ -16,8 +16,8 @@ package clientv3_test
 
 import (
 	"context"
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/pkg/transport"
 	"log"
 )
 

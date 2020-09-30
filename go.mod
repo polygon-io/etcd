@@ -1,6 +1,6 @@
-module github.com/polygon-io/etcd/v3
+module github.com/polygon-io/etcd
 
-go 1.14
+go 1.15
 
 require (
 	github.com/bgentry/speakeasy v0.1.0

@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/cindex"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/lease/leasepb"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/etcdserver/cindex"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/lease/leasepb"
+	"github.com/polygon-io/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

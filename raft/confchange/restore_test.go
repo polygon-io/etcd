@@ -21,8 +21,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 type rndConfChange pb.ConfState

@@ -17,9 +17,9 @@ package etcdserver
 import (
 	"io"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/raft/raftpb"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

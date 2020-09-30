@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/expect"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/expect"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func waitReadyExpectProc(exproc *expect.ExpectProcess, readyStrs []string) error {

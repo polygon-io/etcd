@@ -315,7 +315,7 @@
 		]
 	},
 	{
-		"project": "github.com/polygon-io/etcd/v3",
+		"project": "github.com/polygon-io/etcd",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

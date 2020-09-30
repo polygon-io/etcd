@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

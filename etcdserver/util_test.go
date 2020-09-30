@@ -21,11 +21,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/rafthttp"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/etcdserver/api/rafthttp"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func TestLongestConnected(t *testing.T) {

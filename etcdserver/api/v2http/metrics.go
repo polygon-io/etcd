@@ -20,9 +20,9 @@ import (
 
 	"net/http"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2error"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2http/httptypes"
-	"github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v2error"
+	"github.com/polygon-io/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

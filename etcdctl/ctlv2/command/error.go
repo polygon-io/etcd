@@ -20,7 +20,7 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 const (

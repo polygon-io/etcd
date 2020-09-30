@@ -19,10 +19,10 @@ import (
 	"os"
 	"strings"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/snapshot"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/snapshot"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 type simplePrinter struct {

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/embed"
+	"github.com/polygon-io/etcd/embed"
 	"sigs.k8s.io/yaml"
 )
 

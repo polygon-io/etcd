@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/client"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/client"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

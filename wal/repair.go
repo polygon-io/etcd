@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
-	"github.com/polygon-io/etcd/v3/wal/walpb"
+	"github.com/polygon-io/etcd/pkg/fileutil"
+	"github.com/polygon-io/etcd/wal/walpb"
 	"go.uber.org/zap"
 )
 

@@ -17,10 +17,10 @@ package command
 import (
 	"fmt"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/snapshot"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	spb "github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/snapshot"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	spb "github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

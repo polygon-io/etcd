@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 func TestMemberUnmarshal(t *testing.T) {

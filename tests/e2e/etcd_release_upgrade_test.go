@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/version"
 )
 
 var (

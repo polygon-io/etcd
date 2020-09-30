@@ -1,14 +1,13 @@
-
 ## Red-Black Tree
 
-*"Introduction to Algorithms" (Cormen et al, 3rd ed.), Chapter 13*
+_"Introduction to Algorithms" (Cormen et al, 3rd ed.), Chapter 13_
 
 1. Every node is either red or black.
 2. The root is black.
 3. Every leaf (NIL) is black.
 4. If a node is red, then both its children are black.
 5. For each node, all simple paths from the node to descendant leaves contain the
-same number of black nodes.
+   same number of black nodes.
 
 For example,
 
@@ -16,7 +15,7 @@ For example,
 import (
     "fmt"
 
-    "github.com/polygon-io/etcd/v3/pkg/adt"
+    "github.com/polygon-io/etcd/pkg/adt"
 )
 
 func main() {

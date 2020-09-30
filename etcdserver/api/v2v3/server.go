@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	"github.com/polygon-io/etcd/v3/etcdserver/api"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver"
+	"github.com/polygon-io/etcd/etcdserver/api"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

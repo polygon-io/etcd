@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/spf13/cobra"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/mvcc/backend"
 )
 
 var (

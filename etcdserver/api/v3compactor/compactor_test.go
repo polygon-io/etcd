@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 type fakeCompactable struct {

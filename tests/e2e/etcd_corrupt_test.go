@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 
 	bolt "go.etcd.io/bbolt"
 )

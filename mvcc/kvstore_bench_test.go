@@ -17,10 +17,10 @@ package mvcc
 import (
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/cindex"
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/etcdserver/cindex"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

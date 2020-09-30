@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
-	"github.com/polygon-io/etcd/v3/pkg/flags"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/flags"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

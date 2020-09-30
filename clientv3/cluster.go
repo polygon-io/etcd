@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"google.golang.org/grpc"
 )

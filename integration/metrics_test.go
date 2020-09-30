@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/etcdserver"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/transport"
 )
 
 // TestMetricDbSizeBoot checks that the db size metric is set on boot.

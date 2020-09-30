@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/embed"
+	"github.com/polygon-io/etcd/embed"
 
 	"go.uber.org/zap"
 )

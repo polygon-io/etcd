@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3/balancer/connectivity"
-	"github.com/polygon-io/etcd/v3/clientv3/balancer/picker"
+	"github.com/polygon-io/etcd/clientv3/balancer/connectivity"
+	"github.com/polygon-io/etcd/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/balancer"

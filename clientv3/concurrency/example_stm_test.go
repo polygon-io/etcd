@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/concurrency"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/concurrency"
 )
 
 // ExampleSTM_apply shows how to use STM with a transactional

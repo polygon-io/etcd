@@ -17,7 +17,7 @@ package clientv3
 import (
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

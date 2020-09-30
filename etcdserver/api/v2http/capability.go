@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2http/httptypes"
+	"github.com/polygon-io/etcd/etcdserver/api"
+	"github.com/polygon-io/etcd/etcdserver/api/v2http/httptypes"
 )
 
 func authCapabilityHandler(fn func(http.ResponseWriter, *http.Request)) http.HandlerFunc {

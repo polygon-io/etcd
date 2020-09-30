@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/tools/benchmark/cmd"
+	"github.com/polygon-io/etcd/tools/benchmark/cmd"
 )
 
 func main() {

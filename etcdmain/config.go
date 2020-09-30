@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/polygon-io/etcd/v3/embed"
-	"github.com/polygon-io/etcd/v3/pkg/flags"
-	"github.com/polygon-io/etcd/v3/pkg/logutil"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/embed"
+	"github.com/polygon-io/etcd/pkg/flags"
+	"github.com/polygon-io/etcd/pkg/logutil"
+	"github.com/polygon-io/etcd/version"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

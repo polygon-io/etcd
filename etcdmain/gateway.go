@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/proxy/tcpproxy"
+	"github.com/polygon-io/etcd/proxy/tcpproxy"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

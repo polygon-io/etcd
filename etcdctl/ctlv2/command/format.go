@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

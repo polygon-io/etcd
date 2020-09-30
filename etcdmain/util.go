@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/pkg/srv"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/pkg/srv"
+	"github.com/polygon-io/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

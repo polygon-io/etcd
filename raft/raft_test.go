@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 // nextEnts returns the appliable entries and updates the applied index

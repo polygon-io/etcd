@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/raft"
 )
 
 type logLevels [6]string

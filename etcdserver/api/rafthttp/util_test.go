@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 )

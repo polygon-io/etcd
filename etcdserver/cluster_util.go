@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

@@ -29,12 +29,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
-	"github.com/polygon-io/etcd/v3/pkg/schedule"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/pkg/schedule"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3/balancer/picker"
-	"github.com/polygon-io/etcd/v3/clientv3/balancer/resolver/endpoint"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/mock/mockserver"
+	"github.com/polygon-io/etcd/clientv3/balancer/picker"
+	"github.com/polygon-io/etcd/clientv3/balancer/resolver/endpoint"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/mock/mockserver"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

@@ -17,9 +17,9 @@ package recipe
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/concurrency"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/concurrency"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 // DoubleBarrier blocks processes on Enter until an expected count enters, then

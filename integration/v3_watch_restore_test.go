@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 // TestV3WatchRestoreSnapshotUnsync tests whether slow follower can restore

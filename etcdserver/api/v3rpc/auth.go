@@ -17,8 +17,8 @@ package v3rpc
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 type AuthServer struct {

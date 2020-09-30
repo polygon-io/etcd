@@ -23,11 +23,11 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
-	"github.com/polygon-io/etcd/v3/pkg/mock/mockstore"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v2store"
+	"github.com/polygon-io/etcd/pkg/mock/mockstore"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

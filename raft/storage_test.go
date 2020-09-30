@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func TestStorageTerm(t *testing.T) {

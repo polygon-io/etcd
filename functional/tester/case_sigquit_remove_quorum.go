@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

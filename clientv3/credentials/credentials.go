@@ -22,7 +22,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
 )
 

@@ -25,10 +25,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/raft/confchange"
-	"github.com/polygon-io/etcd/v3/raft/quorum"
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	"github.com/polygon-io/etcd/raft/confchange"
+	"github.com/polygon-io/etcd/raft/quorum"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 // None is a placeholder node ID used when there is no leader.

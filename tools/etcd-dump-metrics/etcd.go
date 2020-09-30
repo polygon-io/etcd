@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/embed"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/embed"
 
 	"go.uber.org/zap"
 )

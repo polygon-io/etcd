@@ -25,7 +25,7 @@ package main
 import (
 	"os"
 
-	"github.com/polygon-io/etcd/v3/etcdmain"
+	"github.com/polygon-io/etcd/etcdmain"
 )
 
 func main() {

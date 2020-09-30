@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	stats "github.com/polygon-io/etcd/v3/etcdserver/api/v2stats"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	stats "github.com/polygon-io/etcd/etcdserver/api/v2stats"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func TestMsgAppV2(t *testing.T) {

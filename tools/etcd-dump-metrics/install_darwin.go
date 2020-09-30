@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 )
 
 const downloadURL = `https://storage.googleapis.com/etcd/%s/etcd-%s-darwin-amd64.zip`

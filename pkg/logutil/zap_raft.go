@@ -17,7 +17,7 @@ package logutil
 import (
 	"errors"
 
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/raft"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

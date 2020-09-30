@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/proxy"
+	"github.com/polygon-io/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

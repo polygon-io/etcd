@@ -15,9 +15,9 @@
 package mockstorage
 
 import (
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
-	"github.com/polygon-io/etcd/v3/raft"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
+	"github.com/polygon-io/etcd/raft"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 type storageRecorder struct {

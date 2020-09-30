@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/etcdctl/ctlv2"
-	"github.com/polygon-io/etcd/v3/etcdctl/ctlv3"
+	"github.com/polygon-io/etcd/etcdctl/ctlv2"
+	"github.com/polygon-io/etcd/etcdctl/ctlv3"
 )
 
 const (

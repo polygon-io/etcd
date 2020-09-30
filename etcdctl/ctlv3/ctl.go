@@ -18,7 +18,7 @@ package ctlv3
 import (
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdctl/ctlv3/command"
+	"github.com/polygon-io/etcd/etcdctl/ctlv3/command"
 
 	"github.com/spf13/cobra"
 )

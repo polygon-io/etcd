@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 func ExampleKeysAPI_directory() {

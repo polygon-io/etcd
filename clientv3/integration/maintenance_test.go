@@ -28,13 +28,13 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestMaintenanceHashKV(t *testing.T) {

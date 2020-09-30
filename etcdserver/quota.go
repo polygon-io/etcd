@@ -17,7 +17,7 @@ package etcdserver
 import (
 	"sync"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"

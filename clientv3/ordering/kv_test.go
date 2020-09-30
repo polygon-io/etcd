@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/clientv3"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 type mockKV struct {

@@ -18,7 +18,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func main() {

@@ -19,8 +19,8 @@
 //	import (
 //		"context"
 //
-//		"github.com/polygon-io/etcd/v3/embed"
-//		"github.com/polygon-io/etcd/v3/etcdserver/api/v3client"
+//		"github.com/polygon-io/etcd/embed"
+//		"github.com/polygon-io/etcd/etcdserver/api/v3client"
 //	)
 //
 //	...

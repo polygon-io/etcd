@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
-	"github.com/polygon-io/etcd/v3/pkg/debugutil"
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/functional/rpcpb"
+	"github.com/polygon-io/etcd/pkg/debugutil"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"

@@ -21,9 +21,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/embed"
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
-	"github.com/polygon-io/etcd/v3/pkg/proxy"
+	"github.com/polygon-io/etcd/embed"
+	"github.com/polygon-io/etcd/functional/rpcpb"
+	"github.com/polygon-io/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

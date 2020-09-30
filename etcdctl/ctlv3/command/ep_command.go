@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	"github.com/polygon-io/etcd/v3/pkg/flags"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/polygon-io/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

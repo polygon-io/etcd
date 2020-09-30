@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 func TestCompactOp(t *testing.T) {

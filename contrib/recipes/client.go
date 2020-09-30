@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	spb "github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	spb "github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 var (

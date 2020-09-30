@@ -15,7 +15,7 @@
 package client
 
 import (
-	"github.com/polygon-io/etcd/v3/pkg/srv"
+	"github.com/polygon-io/etcd/pkg/srv"
 )
 
 // Discoverer is an interface that wraps the Discover method.

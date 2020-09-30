@@ -9,7 +9,7 @@ For full compatibility, it is recommended to install released versions of client
 ## Install
 
 ```bash
-go get github.com/polygon-io/etcd/v3/client
+go get github.com/polygon-io/etcd/client
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ import (
 	"time"
 	"context"
 
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 func main() {
@@ -99,7 +99,6 @@ if err != nil {
 	}
 }
 ```
-
 
 ## Caveat
 

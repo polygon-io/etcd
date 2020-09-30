@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 )
 
 // TODO: support separate WAL directory

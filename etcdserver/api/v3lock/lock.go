@@ -17,9 +17,9 @@ package v3lock
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/concurrency"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3lock/v3lockpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/concurrency"
+	"github.com/polygon-io/etcd/etcdserver/api/v3lock/v3lockpb"
 )
 
 type lockServer struct {

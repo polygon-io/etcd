@@ -17,7 +17,7 @@ package raft
 import (
 	"errors"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // Bootstrap initializes the RawNode for first use by appending configuration

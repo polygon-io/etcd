@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 // TestURLPickerPickTwice tests that pick returns a possible url,

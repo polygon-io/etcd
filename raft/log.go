@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 type raftLog struct {

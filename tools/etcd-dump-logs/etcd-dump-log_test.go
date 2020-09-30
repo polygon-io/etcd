@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/auth/authpb"
-	"github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
-	"github.com/polygon-io/etcd/v3/pkg/pbutil"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/wal"
+	"github.com/polygon-io/etcd/auth/authpb"
+	"github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/pbutil"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/wal"
 	"go.uber.org/zap"
 )
 

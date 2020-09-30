@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
+	"github.com/polygon-io/etcd/mvcc/backend"
 )
 
 // TestConsistentIndex ensures that LoadConsistentIndex/Save/ConsistentIndex and backend.BatchTx can work well together.

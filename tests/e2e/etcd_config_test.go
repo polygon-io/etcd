@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/expect"
+	"github.com/polygon-io/etcd/pkg/expect"
 )
 
 const exampleConfigFile = "../../etcd.conf.yml.sample"

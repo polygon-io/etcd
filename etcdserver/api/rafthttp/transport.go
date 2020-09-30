@@ -20,12 +20,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	stats "github.com/polygon-io/etcd/v3/etcdserver/api/v2stats"
-	"github.com/polygon-io/etcd/v3/pkg/transport"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	stats "github.com/polygon-io/etcd/etcdserver/api/v2stats"
+	"github.com/polygon-io/etcd/pkg/transport"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft"
+	"github.com/polygon-io/etcd/raft/raftpb"
 
 	"github.com/xiang90/probing"
 	"go.uber.org/zap"

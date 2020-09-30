@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/spf13/cobra"
 )

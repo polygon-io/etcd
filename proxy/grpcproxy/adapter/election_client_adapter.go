@@ -17,7 +17,7 @@ package adapter
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3election/v3electionpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v3election/v3electionpb"
 
 	"google.golang.org/grpc"
 )

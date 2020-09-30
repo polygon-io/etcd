@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/clientv3"
 )
 
 // kvOrdering ensures that serialized requests do not return

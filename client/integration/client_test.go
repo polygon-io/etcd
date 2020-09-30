@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/client"
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/client"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 // TestV2NoRetryEOF tests destructive api calls won't retry on a disconnection.

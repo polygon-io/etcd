@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
+	"github.com/polygon-io/etcd/clientv3"
 
 	"github.com/spf13/cobra"
 )

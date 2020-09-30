@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/pkg/stringutil"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/pkg/stringutil"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

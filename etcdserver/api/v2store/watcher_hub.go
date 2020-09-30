@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2error"
+	"github.com/polygon-io/etcd/etcdserver/api/v2error"
 )
 
 // A watcherHub contains all subscribed watchers

@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	v3pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	v3pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 type txnLeasing struct {

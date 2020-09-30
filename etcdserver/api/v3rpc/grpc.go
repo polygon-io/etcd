@@ -18,12 +18,12 @@ import (
 	"crypto/tls"
 	"math"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/etcdserver"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/polygon-io/etcd/v3/clientv3/credentials"
+	"github.com/polygon-io/etcd/clientv3/credentials"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"

@@ -20,7 +20,7 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 func NewAuthCommands() cli.Command {

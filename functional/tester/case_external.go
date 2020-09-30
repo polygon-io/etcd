@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
+	"github.com/polygon-io/etcd/functional/rpcpb"
 )
 
 type caseExternal struct {

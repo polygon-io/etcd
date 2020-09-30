@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/pkg/tlsutil"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/pkg/tlsutil"
 )
 
 type yamlConfig struct {

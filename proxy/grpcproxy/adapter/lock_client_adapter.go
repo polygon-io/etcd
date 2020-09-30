@@ -17,7 +17,7 @@ package adapter
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3lock/v3lockpb"
+	"github.com/polygon-io/etcd/etcdserver/api/v3lock/v3lockpb"
 
 	"google.golang.org/grpc"
 )

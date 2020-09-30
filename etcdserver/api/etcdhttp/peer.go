@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/etcdserver"
-	"github.com/polygon-io/etcd/v3/etcdserver/api"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/rafthttp"
-	"github.com/polygon-io/etcd/v3/lease/leasehttp"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/etcdserver"
+	"github.com/polygon-io/etcd/etcdserver/api"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/etcdserver/api/rafthttp"
+	"github.com/polygon-io/etcd/lease/leasehttp"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

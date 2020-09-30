@@ -18,11 +18,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/auth"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/mvcc"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/auth"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/mvcc"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 )
 
 type authApplierV3 struct {

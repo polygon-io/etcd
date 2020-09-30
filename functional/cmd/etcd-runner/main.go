@@ -16,7 +16,7 @@
 // against a fault injected cluster.
 package main
 
-import "github.com/polygon-io/etcd/v3/functional/runner"
+import "github.com/polygon-io/etcd/functional/runner"
 
 func main() {
 	runner.Start()

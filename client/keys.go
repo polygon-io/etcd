@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/polygon-io/etcd/v3/pkg/pathutil"
+	"github.com/polygon-io/etcd/pkg/pathutil"
 	"net/http"
 	"net/url"
 	"strconv"

@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 func (env *InteractionEnv) handleProposeConfChange(t *testing.T, d datadriven.TestData) error {

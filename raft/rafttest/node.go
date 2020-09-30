@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/raft"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 type node struct {

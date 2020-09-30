@@ -18,7 +18,7 @@ import (
 	"errors"
 	"sync"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // ErrCompacted is returned by Storage.Entries/Compact when a requested

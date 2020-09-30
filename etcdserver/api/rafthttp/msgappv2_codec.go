@@ -20,10 +20,10 @@ import (
 	"io"
 	"time"
 
-	stats "github.com/polygon-io/etcd/v3/etcdserver/api/v2stats"
-	"github.com/polygon-io/etcd/v3/pkg/pbutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
+	stats "github.com/polygon-io/etcd/etcdserver/api/v2stats"
+	"github.com/polygon-io/etcd/pkg/pbutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
 )
 
 const (

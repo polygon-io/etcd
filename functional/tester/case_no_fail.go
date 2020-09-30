@@ -17,7 +17,7 @@ package tester
 import (
 	"time"
 
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
+	"github.com/polygon-io/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

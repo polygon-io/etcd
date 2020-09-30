@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/lease/leasepb"
-	"github.com/polygon-io/etcd/v3/pkg/httputil"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/lease/leasepb"
+	"github.com/polygon-io/etcd/pkg/httputil"
 )
 
 var (

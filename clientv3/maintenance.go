@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 )

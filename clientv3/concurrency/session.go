@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
+	v3 "github.com/polygon-io/etcd/clientv3"
 )
 
 const defaultSessionTTL = 60

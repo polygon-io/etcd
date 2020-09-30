@@ -19,11 +19,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/clientv3/namespace"
-	"github.com/polygon-io/etcd/v3/integration"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/clientv3/namespace"
+	"github.com/polygon-io/etcd/integration"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestNamespacePutGet(t *testing.T) {

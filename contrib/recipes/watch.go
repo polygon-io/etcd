@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	"github.com/polygon-io/etcd/v3/clientv3"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/clientv3"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 // WaitEvents waits on a key until it observes the given events and returns the final one.

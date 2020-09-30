@@ -17,8 +17,8 @@ package raft
 import (
 	"fmt"
 
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/raft/tracker"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/tracker"
 )
 
 // Status contains information about this Raft peer and its view of the system.

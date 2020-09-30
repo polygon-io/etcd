@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/transport"
+	"github.com/polygon-io/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

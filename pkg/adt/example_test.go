@@ -17,7 +17,7 @@ package adt_test
 import (
 	"fmt"
 
-	"github.com/polygon-io/etcd/v3/pkg/adt"
+	"github.com/polygon-io/etcd/pkg/adt"
 )
 
 func Example() {

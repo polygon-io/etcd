@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
-	"github.com/polygon-io/etcd/v3/pkg/pbutil"
-	"github.com/polygon-io/etcd/v3/pkg/types"
-	"github.com/polygon-io/etcd/v3/raft/raftpb"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
+	"github.com/polygon-io/etcd/pkg/pbutil"
+	"github.com/polygon-io/etcd/pkg/types"
+	"github.com/polygon-io/etcd/raft/raftpb"
+	"github.com/polygon-io/etcd/version"
 
 	"go.uber.org/zap"
 )

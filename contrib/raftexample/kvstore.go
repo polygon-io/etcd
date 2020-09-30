@@ -21,7 +21,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/snap"
+	"github.com/polygon-io/etcd/etcdserver/api/snap"
 )
 
 // a key-value store backed by raft

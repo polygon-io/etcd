@@ -18,8 +18,8 @@ import (
 	goruntime "runtime"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/runtime"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/pkg/runtime"
+	"github.com/polygon-io/etcd/version"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"

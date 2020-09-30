@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 )
 
 type readView struct{ kv KV }

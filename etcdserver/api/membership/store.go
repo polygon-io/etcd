@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v2store"
-	"github.com/polygon-io/etcd/v3/mvcc/backend"
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/etcdserver/api/v2store"
+	"github.com/polygon-io/etcd/mvcc/backend"
+	"github.com/polygon-io/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

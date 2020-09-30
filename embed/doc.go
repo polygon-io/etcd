@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"github.com/polygon-io/etcd/v3/embed"
+		"github.com/polygon-io/etcd/embed"
 	)
 
 	func main() {

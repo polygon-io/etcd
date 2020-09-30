@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/pkg/types"
+	"github.com/polygon-io/etcd/pkg/types"
 )
 
 // URLsValue wraps "types.URLs".

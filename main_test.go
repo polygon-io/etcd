@@ -22,7 +22,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/etcdmain"
+	"github.com/polygon-io/etcd/etcdmain"
 )
 
 func SplitTestArgs(args []string) (testArgs, appArgs []string) {

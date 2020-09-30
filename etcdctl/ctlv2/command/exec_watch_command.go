@@ -22,7 +22,7 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 
 	"github.com/urfave/cli"
 )

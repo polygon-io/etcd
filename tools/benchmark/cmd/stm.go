@@ -23,10 +23,10 @@ import (
 	"os"
 	"time"
 
-	v3 "github.com/polygon-io/etcd/v3/clientv3"
-	v3sync "github.com/polygon-io/etcd/v3/clientv3/concurrency"
-	"github.com/polygon-io/etcd/v3/etcdserver/api/v3lock/v3lockpb"
-	"github.com/polygon-io/etcd/v3/pkg/report"
+	v3 "github.com/polygon-io/etcd/clientv3"
+	v3sync "github.com/polygon-io/etcd/clientv3/concurrency"
+	"github.com/polygon-io/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/polygon-io/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

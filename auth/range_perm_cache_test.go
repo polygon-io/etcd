@@ -17,8 +17,8 @@ package auth
 import (
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/auth/authpb"
-	"github.com/polygon-io/etcd/v3/pkg/adt"
+	"github.com/polygon-io/etcd/auth/authpb"
+	"github.com/polygon-io/etcd/pkg/adt"
 
 	"go.uber.org/zap"
 )

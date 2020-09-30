@@ -16,7 +16,7 @@ package command
 
 import (
 	"github.com/urfave/cli"
-	"github.com/polygon-io/etcd/v3/client"
+	"github.com/polygon-io/etcd/client"
 )
 
 // NewSetDirCommand returns the CLI command for "setDir".

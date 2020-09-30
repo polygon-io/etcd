@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	v3rpc "github.com/polygon-io/etcd/v3/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	v3rpc "github.com/polygon-io/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

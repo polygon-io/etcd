@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestSRVGetCluster(t *testing.T) {

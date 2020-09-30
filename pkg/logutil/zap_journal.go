@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/polygon-io/etcd/v3/pkg/systemd"
+	"github.com/polygon-io/etcd/pkg/systemd"
 
 	"github.com/coreos/go-systemd/v22/journal"
 	"go.uber.org/zap/zapcore"

@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/pkg/testutil"
+	"github.com/polygon-io/etcd/pkg/testutil"
 )
 
 func TestTxnPanics(t *testing.T) {

@@ -17,8 +17,8 @@
 // To use, first import the packages:
 //
 //	import (
-//		"github.com/polygon-io/etcd/v3/clientv3"
-//		etcdnaming "github.com/polygon-io/etcd/v3/clientv3/naming"
+//		"github.com/polygon-io/etcd/clientv3"
+//		etcdnaming "github.com/polygon-io/etcd/clientv3/naming"
 //
 //		"google.golang.org/grpc"
 //		"google.golang.org/grpc/naming"

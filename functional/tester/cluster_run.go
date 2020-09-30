@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/functional/rpcpb"
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/functional/rpcpb"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

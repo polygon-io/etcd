@@ -19,7 +19,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
 )
 
 // AutoWatchID is the watcher ID passed in WatchStream.Watch when no

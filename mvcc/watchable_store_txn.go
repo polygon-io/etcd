@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"github.com/polygon-io/etcd/v3/mvcc/mvccpb"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/mvcc/mvccpb"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 )
 
 func (tw *watchableStoreTxnWrite) End() {

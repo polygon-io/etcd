@@ -28,8 +28,8 @@ To build a modularized `etcd` from the `master` branch via `go get`:
 # GOPATH should be set
 $ echo $GOPATH
 /Users/example/go
-$ go get -v github.com/polygon-io/etcd/v3
-$ go get -v github.com/polygon-io/etcd/v3/etcdctl
+$ go get -v github.com/polygon-io/etcd
+$ go get -v github.com/polygon-io/etcd/etcdctl
 ```
 
 ## Test the installation
@@ -43,6 +43,7 @@ If etcd is built without using `go get`, run the following:
 ```sh
 $ ./bin/etcd
 ```
+
 If etcd is built using `go get`, run the following:
 
 ```sh

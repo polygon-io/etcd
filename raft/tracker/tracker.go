@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/raft/quorum"
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft/quorum"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // Config reflects the configuration tracked in a ProgressTracker.

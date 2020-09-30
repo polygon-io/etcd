@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/lease"
-	"github.com/polygon-io/etcd/v3/pkg/report"
-	"github.com/polygon-io/etcd/v3/pkg/traceutil"
+	"github.com/polygon-io/etcd/lease"
+	"github.com/polygon-io/etcd/pkg/report"
+	"github.com/polygon-io/etcd/pkg/traceutil"
 
 	"github.com/spf13/cobra"
 )

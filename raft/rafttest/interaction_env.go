@@ -19,8 +19,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/polygon-io/etcd/v3/raft"
-	pb "github.com/polygon-io/etcd/v3/raft/raftpb"
+	"github.com/polygon-io/etcd/raft"
+	pb "github.com/polygon-io/etcd/raft/raftpb"
 )
 
 // InteractionOpts groups the options for an InteractionEnv.

@@ -17,8 +17,8 @@ package api
 import (
 	"sync"
 
-	"github.com/polygon-io/etcd/v3/etcdserver/api/membership"
-	"github.com/polygon-io/etcd/v3/version"
+	"github.com/polygon-io/etcd/etcdserver/api/membership"
+	"github.com/polygon-io/etcd/version"
 	"go.uber.org/zap"
 
 	"github.com/coreos/go-semver/semver"

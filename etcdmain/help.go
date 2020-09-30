@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/polygon-io/etcd/v3/embed"
+	"github.com/polygon-io/etcd/embed"
 	"golang.org/x/crypto/bcrypt"
 )
 

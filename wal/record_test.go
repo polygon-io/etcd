@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/polygon-io/etcd/v3/wal/walpb"
+	"github.com/polygon-io/etcd/wal/walpb"
 )
 
 var (

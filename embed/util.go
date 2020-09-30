@@ -17,7 +17,7 @@ package embed
 import (
 	"path/filepath"
 
-	"github.com/polygon-io/etcd/v3/wal"
+	"github.com/polygon-io/etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

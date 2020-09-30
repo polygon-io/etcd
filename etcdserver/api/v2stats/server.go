@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/polygon-io/etcd/v3/raft"
+	"github.com/polygon-io/etcd/raft"
 )
 
 // ServerStats encapsulates various statistics about an EtcdServer and its

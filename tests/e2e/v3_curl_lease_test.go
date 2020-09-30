@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	pb "github.com/polygon-io/etcd/v3/etcdserver/etcdserverpb"
+	pb "github.com/polygon-io/etcd/etcdserver/etcdserverpb"
 )
 
 func TestV3CurlLeaseGrantNoTLS(t *testing.T) {

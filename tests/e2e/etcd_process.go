@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/polygon-io/etcd/v3/pkg/expect"
-	"github.com/polygon-io/etcd/v3/pkg/fileutil"
+	"github.com/polygon-io/etcd/pkg/expect"
+	"github.com/polygon-io/etcd/pkg/fileutil"
 )
 
 var (
